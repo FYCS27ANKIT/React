@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 const Q4 = () => {
-    const [login, setLogin] = useState(false); // Use boolean for better logic
+    const [login, setLogin] = useState(false);
 
     return (
         <div>
