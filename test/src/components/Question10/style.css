@@ -1,0 +1,24 @@
+.card-contact{
+    background-color : transparent;
+    backdrop-filter: blur(8px);
+    color : white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.form-control{
+    background-color: transparent;
+    color: #fff;
+}
+.form-control:focus,.form-control:active.form-control:focus:active{
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    color: #fff;
+    box-shadow: none;
+}
+
+@media only screen and (max-width : 600) {
+    .card-contact {
+        width: 100%;
+        height : 100%;
+    }
+}
